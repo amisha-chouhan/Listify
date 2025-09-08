@@ -134,7 +134,7 @@ import { BiEdit } from "react-icons/bi";
         </div>  
       </div>
     </div>
-    <footer></footer>
+ 
     </>
   )
 }
