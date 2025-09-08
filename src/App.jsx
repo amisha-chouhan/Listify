@@ -1,7 +1,10 @@
 import { useState,useEffect } from 'react';
 import Navbar from './components/Navbar'
 import './index.css'
+import { BiEdit } from "react-icons/bi";
  import {v4 as uuid4} from 'uuid';
+ import { MdDelete } from "react-icons/md";
+
 
  function App() {
 
@@ -100,7 +103,7 @@ import './index.css'
             placeholder="Write your todo..."
             className="flex-1 border border-gray-300 rounded-md px-3 py-2 w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-violet-500"
           />
-          <button onClick={handleAdd} className="bg-violet-700 hover:bg-violet-800 px-4 py-2 text-sm font-semibold text-white rounded-md transition-all duration-200 w-full sm:w-auto">
+          <button onClick={handleAdd} disabled={todo.length<3} className="bg-violet-700  hover:bg-violet-800 px-4 py-2 text-sm font-semibold text-white rounded-md transition-all duration-200 w-full sm:w-auto">
             Save
           </button>
         </div>
@@ -120,10 +123,10 @@ import './index.css'
             <div className= '{item.isCompleted?"": "line-through"} text-gray-800 dark:black'>{item.todo}</div>
             <div className="flex gap-2">
               <button onClick={(e)=>handleEdit(e,item.id)} className="bg-yellow-500 hover:bg-yellow-600 px-3 py-1 text-sm font-medium text-white rounded-md transition-all duration-200">
-                Edit
+                  <BiEdit />
               </button>
               <button  onClick={(e)=>handleDelete(e,item.id)} className="bg-red-500 hover:bg-red-60 px-3 py-1 text-sm font-medium text-white rounded-md transition-all duration-200">
-                Delete
+                <MdDelete />
               </button>
             </div>
           </div>
