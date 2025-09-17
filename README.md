@@ -1,19 +1,19 @@
-Listify– Todo App
+#Listify– Todo App
 A responsive React To-Do app with add, edit, delete, mark complete/incomplete, filter finished tasks, and localStorage support.
 
-✨ Features
+##✨ Features
 
-Add, edit, and delete todos
+**Add, edit, and delete todos
 
-Mark tasks as completed or pending
+**Mark tasks as completed or pending
 
-“Show Finished” checkbox to filter completed items
+**“Show Finished” checkbox to filter completed items
 
-Dark/Light theme toggle
+**Dark/Light theme toggle
 
-Todos persist in the browser via localStorage
+**Todos persist in the browser via localStorage
 
-Responsive UI with Tailwind CSS
+**Responsive UI with Tailwind CSS
 
 ## 🛠️ Tech Stack
 
@@ -23,7 +23,7 @@ Responsive UI with Tailwind CSS
 - [Vite](https://vitejs.dev/) – for fast development and build  
 - `uuid` – to generate unique IDs for todos
 
-📂 Project Structure
+#📂 Project Structure
 Listify/
 ├── public/
 ├── screenshots/
@@ -41,7 +41,7 @@ Listify/
 │   └── vite.config.js
 └── package.json
 
-🚀 Getting Started
+#🚀 Getting Started
 Prerequisites
 
 Node.js
@@ -49,7 +49,7 @@ Node.js
 
 npm or yarn
 
-Installation
+#Installation
 # Clone the repository
 git clone https://github.com/<your-username>/Listify.git
 
@@ -59,13 +59,13 @@ cd Listify
 # Install dependencies
 npm install
 
-Run the development server
+##Run the development server
 npm run dev
 
 
 Open your browser at http://localhost:5173
 
-Build for production
+##Build for production
 npm run build
 
 ## 📸 Screenshots
@@ -75,20 +75,20 @@ npm run build
 | ![Light Mode](./screenshots/light.png) | ![Dark Mode](./screenshots/dark.png) |
 
 
-📝 Future Improvements
+#📝 Future Improvements
 
-Drag & drop to reorder todos
+**Drag & drop to reorder todos
 
-Categories or labels for tasks
+**Categories or labels for tasks
 
-Sync with a backend or cloud database
+**Sync with a backend or cloud database
 
-🤝 Contributing
+#🤝 Contributing
 
 Contributions, issues, and feature requests are welcome.
 Feel free to fork the repo and submit a pull request.
 
-📄 License
+#📄 License
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
