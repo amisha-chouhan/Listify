@@ -7,13 +7,13 @@ A responsive React To-Do app with add, edit, delete, mark complete/incomplete, f
 
 **Mark tasks as completed or pending**
 
-**“Show Finished” checkbox to filter completed items
+**“Show Finished” checkbox to filter completed items**
 
-**Dark/Light theme toggle
+**Dark/Light theme toggle**
 
-**Todos persist in the browser via localStorage
+**Todos persist in the browser via localStorage**
 
-**Responsive UI with Tailwind CSS
+**Responsive UI with Tailwind CSS**
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +49,7 @@ Node.js
 
 npm or yarn
 
-#Installation
+# Installation
 # Clone the repository
 git clone https://github.com/<your-username>/Listify.git
 
@@ -59,13 +59,13 @@ git clone https://github.com/<your-username>/Listify.git
 # Install dependencies
 ### `npm install`
 
-##Run the development server
+## Run the development server
 ### `npm run dev`
 
 
 Open your browser at http://localhost:5173
 
-##Build for production
+## Build for production
 ### `npm run build`
 
 ## 📸 Screenshots
@@ -75,7 +75,7 @@ Open your browser at http://localhost:5173
 | ![Light Mode](./screenshots/light.png) | ![Dark Mode](./screenshots/dark.png) |
 
 
-#📝 Future Improvements
+# 📝 Future Improvements
 
 **Drag & drop to reorder todos
 
@@ -83,12 +83,12 @@ Open your browser at http://localhost:5173
 
 **Sync with a backend or cloud database
 
-#🤝 Contributing
+# 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome.
 Feel free to fork the repo and submit a pull request.
 
-#📄 License
+# 📄 License
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
