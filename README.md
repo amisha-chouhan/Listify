@@ -1,11 +1,11 @@
-#Listify– Todo App
+# Listify– Todo App
 A responsive React To-Do app with add, edit, delete, mark complete/incomplete, filter finished tasks, and localStorage support.
 
-##✨ Features
+## ✨ Features
 
-**Add, edit, and delete todos
+**Add, edit, and delete todos**
 
-**Mark tasks as completed or pending
+**Mark tasks as completed or pending**
 
 **“Show Finished” checkbox to filter completed items
 
@@ -54,19 +54,19 @@ npm or yarn
 git clone https://github.com/<your-username>/Listify.git
 
 # Navigate to the project
-cd Listify
+### `cd Listify`
 
 # Install dependencies
-npm install
+### `npm install`
 
 ##Run the development server
-npm run dev
+### `npm run dev`
 
 
 Open your browser at http://localhost:5173
 
 ##Build for production
-npm run build
+### `npm run build`
 
 ## 📸 Screenshots
 
