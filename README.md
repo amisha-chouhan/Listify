@@ -3,17 +3,17 @@ A responsive React To-Do app with add, edit, delete, mark complete/incomplete, f
 
 ## ✨ Features
 
-**Add, edit, and delete todos**
+**Add, edit, and delete todos
 
-**Mark tasks as completed or pending**
+**Mark tasks as completed or pending
 
-**“Show Finished” checkbox to filter completed items**
+**“Show Finished” checkbox to filter completed items
 
-**Dark/Light theme toggle**
+**Dark/Light theme toggle
 
-**Todos persist in the browser via localStorage**
+**Todos persist in the browser via localStorage
 
-**Responsive UI with Tailwind CSS**
+**Responsive UI with Tailwind CSS
 
 ## 🛠️ Tech Stack
 
@@ -23,7 +23,7 @@ A responsive React To-Do app with add, edit, delete, mark complete/incomplete, f
 - [Vite](https://vitejs.dev/) – for fast development and build  
 - `uuid` – to generate unique IDs for todos
 
-#📂 Project Structure
+# 📂 Project Structure
 Listify/
 ├── public/
 ├── screenshots/
@@ -41,7 +41,7 @@ Listify/
 │   └── vite.config.js
 └── package.json
 
-#🚀 Getting Started
+# 🚀 Getting Started
 Prerequisites
 
 Node.js
