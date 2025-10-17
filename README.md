@@ -72,7 +72,7 @@ Open your browser at http://localhost:5173
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](./screenshots/light.png) | ![Dark Mode](./screenshots/dark.png) |
+| ![Light Mode](./src/assets/screenshots/light.png) | ![Dark Mode](./src/assets/screenshots/dark.png) |
 
 
 # 📝 Future Improvements
